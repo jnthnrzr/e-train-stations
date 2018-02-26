@@ -1,5 +1,5 @@
 "use strict";
-var APP_ID = "amzn1.ask.skill.feb80a9a-6bed-4012-87ce-47711bc12f4b";
+var APP_ID = "amzn1.ask.skill.2f9b0464-6dd8-490d-a40e-58c5528f6021";
 
 var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
 var GAME_LENGTH = 5;  // The number of questions per trivia game.
@@ -18,7 +18,7 @@ var languageString = {
     "en": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
-            "GAME_NAME" : "New Jersey Trivia",
+            "GAME_NAME" : "E Train Stations",
             "HELP_MESSAGE": "I will ask you %s multiple choice questions. Respond with the number of the answer. " +
             "For example, say one, two, three, or four. To start a new game at any time, say, start game. ",
             "REPEAT_QUESTION_MESSAGE": "To repeat the last question, say, repeat. ",
@@ -30,7 +30,7 @@ var languageString = {
             "TRIVIA_UNHANDLED": "Try saying a number between 1 and %s",
             "HELP_UNHANDLED": "Say yes to continue, or no to end the game.",
             "START_UNHANDLED": "Say start to start a new game.",
-            "NEW_GAME_MESSAGE": "Welcome to %s. ",
+            "NEW_GAME_MESSAGE": "Let's play a game of %s. ",
             "WELCOME_MESSAGE": "I will ask you %s questions, try to get as many right as you can. " +
             "Just say the number of the answer. Let\'s begin. ",
             "ANSWER_CORRECT_MESSAGE": "correct. ",
@@ -45,13 +45,13 @@ var languageString = {
     "en-US": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
-            "GAME_NAME" : "New Jersey Trivia"
+            "GAME_NAME" : "E Train Stations"
         }
     },
 };
 
 var Alexa = require("alexa-sdk");
-var APP_ID = "amzn1.ask.skill.feb80a9a-6bed-4012-87ce-47711bc12f4b";
+var APP_ID = "amzn1.ask.skill.2f9b0464-6dd8-490d-a40e-58c5528f6021";
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
